@@ -9,7 +9,7 @@
     "server:prod": "node server.js",
     "client-install": "cd client && npm install",
     "client-build": "cd client && npm run build",
-    "serve": "npm run client-build && npm run server:prod"
+    "serve": "npm run client-install && npm run client-build && npm run server:prod"
   },
   "author": "Rajat",
   "license": "ISC",
